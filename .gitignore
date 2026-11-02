@@ -1,0 +1,9 @@
+/_*/
+/editor-setting.json
+/editor-settings.json
+/editor-error.log
+checkpoint.json
+*.tmp
+Thumbs.db
+.DS_Store
+__pycache__/
