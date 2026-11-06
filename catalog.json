@@ -51,43 +51,54 @@
       ],
       "images": {
         "cover_front": {
-          "sha256": "4b95abdc9844f269ba6970bd928dfefe3e4748023d6220975f582b4377ceaf24",
-          "bytes": 71188,
-          "width": 512,
-          "height": 504,
-          "alpha": true,
+          "kind": "cover_front",
+          "sha256": "7b2d24653f96492d752c13e0f94291243dd235761452836dd9c27e5c041be092",
+          "bytes": 95224,
+          "width": 640,
+          "height": 620,
+          "alpha": false,
           "compression": {
             "policy": "smallest-lossless-or-lossy90-v2",
             "lossless": false,
             "reason": "smallest_webp",
             "quality": 90,
             "candidate_bytes": {
-              "lossless": 240414,
-              "lossy90": 71188
+              "lossless": 437828,
+              "lossy90": 95224
             }
           },
-          "kind": "cover_front",
-          "path": "51000/cover_front.webp",
           "sources": [
             {
-              "source": "Named_Boxarts/Sonic Adventure (USA) (En,Ja,Fr,De,Es) (Rev A).png",
-              "source_sha256": "63395db2fe1539fabbfd3b863f7d1ff5e9d357608e44c7d2b045a9dedcc450b4",
-              "source_bytes": 424843,
+              "source": "Sonic Retro/Sa_us_boxart.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "0f044fab2fa881fc74534aca4faa6ef6a25cfca700dc0be7c89fdad7ac96a331",
+              "source_bytes": 79968,
+              "url": "https://info.sonicretro.org/images/8/82/Sa_us_boxart.jpg",
+              "page": "Sonic Adventure",
+              "region": "USA",
+              "classification": "explicit_selected_jewel_case_front",
+              "match": "exact_file_usage_or_explicit_alias",
               "compression": {
                 "policy": "smallest-lossless-or-lossy90-v2",
                 "lossless": false,
                 "reason": "smallest_webp",
                 "quality": 90,
                 "candidate_bytes": {
-                  "lossless": 240414,
-                  "lossy90": 71188
+                  "lossless": 437828,
+                  "lossy90": 95224
                 }
               },
-              "redump_id": "2877",
-              "dat_name": "Sonic Adventure (USA) (En,Ja,Fr,De,Es) (Rev A)",
-              "match": "exact"
+              "file_page": "https://info.sonicretro.org/File:Sa_us_boxart.jpg",
+              "uploader": "MathUser",
+              "uploader_url": "https://info.sonicretro.org/User:MathUser",
+              "uploaded_at": "2009-09-10T15:46:34Z",
+              "source_sha1": "079e3139440af206e9fcf2efcac058f607a6813a",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sa_us_boxart.jpg"
             }
-          ]
+          ],
+          "path": "51000/cover_front.webp"
         },
         "cover_front2": {
           "sha256": "417f85cb27ef3cacbb4e87e692ca5f5b46c0ada4bfe7c5d99f4686c98d892ad7",
@@ -343,6 +354,196 @@
               "match": "release_metadata_normalized"
             }
           ]
+        },
+        "cover_back": {
+          "kind": "cover_back",
+          "sha256": "7cfa862515159cd2585cc8ea58e14efb6db7ea1ba2970028763bbd9b9ba4ab44",
+          "bytes": 1361466,
+          "width": 1772,
+          "height": 1384,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 3949762,
+              "lossy90": 1361466
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sa_us_back_cover.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "66d02f8542754ab76d236b287c5be748994e12fbaa500585bc19e934e91e0f3c",
+              "source_bytes": 1755313,
+              "url": "https://info.sonicretro.org/images/0/08/Sa_us_back_cover.jpg",
+              "page": "Sonic Adventure",
+              "region": "USA",
+              "classification": "explicit_selected_back",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 3949762,
+                  "lossy90": 1361466
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sa_us_back_cover.jpg",
+              "uploader": "Hivebrain",
+              "uploader_url": "https://info.sonicretro.org/User:Hivebrain",
+              "uploaded_at": "2015-06-23T01:56:17Z",
+              "source_sha1": "fe2e230fcd0140c35ea7e8896a989ad477cc6dbf",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sa_us_back_cover.jpg"
+            }
+          ],
+          "path": "51000/cover_back.webp"
+        },
+        "cover_front3": {
+          "sha256": "4b95abdc9844f269ba6970bd928dfefe3e4748023d6220975f582b4377ceaf24",
+          "bytes": 71188,
+          "width": 512,
+          "height": 504,
+          "alpha": true,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 240414,
+              "lossy90": 71188
+            }
+          },
+          "kind": "cover_front",
+          "path": "51000/cover_front3.webp",
+          "sources": [
+            {
+              "source": "Named_Boxarts/Sonic Adventure (USA) (En,Ja,Fr,De,Es) (Rev A).png",
+              "source_sha256": "63395db2fe1539fabbfd3b863f7d1ff5e9d357608e44c7d2b045a9dedcc450b4",
+              "source_bytes": 424843,
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 240414,
+                  "lossy90": 71188
+                }
+              },
+              "redump_id": "2877",
+              "dat_name": "Sonic Adventure (USA) (En,Ja,Fr,De,Es) (Rev A)",
+              "match": "exact"
+            }
+          ]
+        },
+        "disc": {
+          "kind": "disc",
+          "sha256": "5cfe9e6affd997ae0fe712ea69c3dda60dffec9ca891feed339fc0c0a96bcd1f",
+          "bytes": 109702,
+          "width": 640,
+          "height": 637,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 389110,
+              "lossy90": 109702
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/SA1_-_NOT_FOR_RESALE.png",
+              "provider": "sonicretro",
+              "source_sha256": "ae1dc535f12f6ba26f5a1b92373526509e8566e61be375c83c70578392dc188a",
+              "source_bytes": 655725,
+              "url": "https://info.sonicretro.org/images/a/ab/SA1_-_NOT_FOR_RESALE.png",
+              "page": "Sonic Adventure",
+              "region": "USA",
+              "classification": "explicit_selected_disc",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 389110,
+                  "lossy90": 109702
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:SA1_-_NOT_FOR_RESALE.png",
+              "uploader": "Polygon Jim",
+              "uploader_url": "https://info.sonicretro.org/User:Polygon_Jim",
+              "uploaded_at": "2009-10-18T13:22:52Z",
+              "source_sha1": "5ae6c5c244a476420283a386eaf856e03d4ba2df",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:SA1_-_NOT_FOR_RESALE.png",
+              "release_variant": "not_for_resale"
+            }
+          ],
+          "path": "51000/disc.webp"
+        },
+        "inlay": {
+          "kind": "inlay",
+          "sha256": "7565962c15059161900b170fb06121ce0320310f0c7505696e9f0366ec2e4a36",
+          "bytes": 794028,
+          "width": 1770,
+          "height": 1384,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 2667602,
+              "lossy90": 794028
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/SonicAdventure_DC_US_Inlay.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "d8e0e0cabbf09e71ce2f6e71477e7276ce0357063ba000867f8c18393311648c",
+              "source_bytes": 1047659,
+              "url": "https://info.sonicretro.org/images/c/ce/SonicAdventure_DC_US_Inlay.jpg",
+              "page": "Sonic Adventure",
+              "region": "USA",
+              "classification": "explicit_selected_inlay",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 2667602,
+                  "lossy90": 794028
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:SonicAdventure_DC_US_Inlay.jpg",
+              "uploader": "Black Squirrel",
+              "uploader_url": "https://info.sonicretro.org/User:Black_Squirrel",
+              "uploaded_at": "2015-01-17T19:13:07Z",
+              "source_sha1": "6995284a7e0ab744ef93b09aa2cedf846fd949b2",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:SonicAdventure_DC_US_Inlay.jpg"
+            }
+          ],
+          "path": "51000/inlay.webp"
         }
       },
       "serial_identifiers": [
@@ -21457,10 +21658,11 @@
       ],
       "images": {
         "cover_front": {
-          "sha256": "606cd8f496f8b1a219c263160675a33dd11264b3f302adf6d86dcb64fdef4968",
-          "bytes": 72608,
-          "width": 512,
-          "height": 507,
+          "kind": "cover_front",
+          "sha256": "9677577996141433d887d8041e13d594a30de27e2dbfcc96200230a64d2a904a",
+          "bytes": 269360,
+          "width": 1424,
+          "height": 1408,
           "alpha": false,
           "compression": {
             "policy": "smallest-lossless-or-lossy90-v2",
@@ -21468,32 +21670,42 @@
             "reason": "smallest_webp",
             "quality": 90,
             "candidate_bytes": {
-              "lossless": 243310,
-              "lossy90": 72608
+              "lossless": 1605512,
+              "lossy90": 269360
             }
           },
-          "kind": "cover_front",
-          "path": "51060/cover_front.webp",
           "sources": [
             {
-              "source": "Named_Boxarts/Sonic Shuffle (USA).png",
-              "source_sha256": "2a440af4fd25db9b7245749733e5c144ee21bbde31430b1f67ac819d3f235323",
-              "source_bytes": 376902,
+              "source": "Sonic Retro/Shuffle_us_boxart.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "f57d77528b026f4e458039695c43ed4705f2b880841b87c234435e5b74cc808b",
+              "source_bytes": 1240075,
+              "url": "https://info.sonicretro.org/images/c/c3/Shuffle_us_boxart.jpg",
+              "page": "Sonic Shuffle",
+              "region": "USA",
+              "classification": "explicit_selected_jewel_case_front",
+              "match": "exact_file_usage_or_explicit_alias",
               "compression": {
                 "policy": "smallest-lossless-or-lossy90-v2",
                 "lossless": false,
                 "reason": "smallest_webp",
                 "quality": 90,
                 "candidate_bytes": {
-                  "lossless": 243310,
-                  "lossy90": 72608
+                  "lossless": 1605512,
+                  "lossy90": 269360
                 }
               },
-              "redump_id": "55965",
-              "dat_name": "Sonic Shuffle (USA)",
-              "match": "exact"
+              "file_page": "https://info.sonicretro.org/File:Shuffle_us_boxart.jpg",
+              "uploader": "Hivebrain",
+              "uploader_url": "https://info.sonicretro.org/User:Hivebrain",
+              "uploaded_at": "2009-08-30T23:18:21Z",
+              "source_sha1": "41788038db59fbeaab47c1d539855ff84b00480f",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Shuffle_us_boxart.jpg"
             }
-          ]
+          ],
+          "path": "51060/cover_front.webp"
         },
         "logo": {
           "sha256": "64cfdaf111e2c01062f8113d6bb58c27508a676e8674f555ec259789cf49769d",
@@ -21623,6 +21835,246 @@
               "match": "exact"
             }
           ]
+        },
+        "cover_back": {
+          "kind": "cover_back",
+          "sha256": "eadaa51c95b859930fe96e0c24fa976f1728374b9890b2f30cff38f277e40a88",
+          "bytes": 1308018,
+          "width": 1766,
+          "height": 1380,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 3838856,
+              "lossy90": 1308018
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Shuffle_us_back_cover.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "4981ef60f5fd7856b0e83cc43ebaac2577f976bade7907343487bb4d0eef3bb7",
+              "source_bytes": 1638054,
+              "url": "https://info.sonicretro.org/images/1/14/Shuffle_us_back_cover.jpg",
+              "page": "Sonic Shuffle",
+              "region": "USA",
+              "classification": "explicit_selected_back",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 3838856,
+                  "lossy90": 1308018
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Shuffle_us_back_cover.jpg",
+              "uploader": "Hivebrain",
+              "uploader_url": "https://info.sonicretro.org/User:Hivebrain",
+              "uploaded_at": "2015-06-25T14:23:42Z",
+              "source_sha1": "52067e7f881867b9c5dc0f37098edabc5dc68ec4",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Shuffle_us_back_cover.jpg"
+            }
+          ],
+          "path": "51060/cover_back.webp"
+        },
+        "cover_front2": {
+          "sha256": "606cd8f496f8b1a219c263160675a33dd11264b3f302adf6d86dcb64fdef4968",
+          "bytes": 72608,
+          "width": 512,
+          "height": 507,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 243310,
+              "lossy90": 72608
+            }
+          },
+          "kind": "cover_front",
+          "path": "51060/cover_front2.webp",
+          "sources": [
+            {
+              "source": "Named_Boxarts/Sonic Shuffle (USA).png",
+              "source_sha256": "2a440af4fd25db9b7245749733e5c144ee21bbde31430b1f67ac819d3f235323",
+              "source_bytes": 376902,
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 243310,
+                  "lossy90": 72608
+                }
+              },
+              "redump_id": "55965",
+              "dat_name": "Sonic Shuffle (USA)",
+              "match": "exact"
+            }
+          ]
+        },
+        "disc": {
+          "kind": "disc",
+          "sha256": "87973fa6537224f3536b73c1c59594137e9a6fdd7028161fa8fceb9451caab0d",
+          "bytes": 105906,
+          "width": 640,
+          "height": 643,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 456086,
+              "lossy90": 105906
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Shuffle_us_nfr_cd.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "909a7e07dfac028de7dc308295d9446824ddd3ea57d06c0aa613d339c7a2c21a",
+              "source_bytes": 185278,
+              "url": "https://info.sonicretro.org/images/5/52/Shuffle_us_nfr_cd.jpg",
+              "page": "Sonic Shuffle",
+              "region": "USA",
+              "classification": "explicit_selected_disc",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 456086,
+                  "lossy90": 105906
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Shuffle_us_nfr_cd.jpg",
+              "uploader": "Scarred Sun",
+              "uploader_url": "https://info.sonicretro.org/User:Scarred_Sun",
+              "uploaded_at": "2009-11-30T00:29:15Z",
+              "source_sha1": "e52284631be07f41838a16b599fda0d965a71ce6",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Shuffle_us_nfr_cd.jpg",
+              "release_variant": "not_for_resale"
+            }
+          ],
+          "path": "51060/disc.webp"
+        },
+        "disc2": {
+          "kind": "disc",
+          "sha256": "5515971654a84d8e7e31a3e66d415420861935f5482f91496965af766b5903ca",
+          "bytes": 68148,
+          "width": 640,
+          "height": 628,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 375774,
+              "lossy90": 68148
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Shuffle_us_cd.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "32d4530efb23dfd13d031360d24fa1db176d0db2705f53758b39900bc05f4787",
+              "source_bytes": 112999,
+              "url": "https://info.sonicretro.org/images/1/1a/Shuffle_us_cd.jpg",
+              "page": "Sonic Shuffle",
+              "region": "USA",
+              "classification": "explicit_selected_disc",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 375774,
+                  "lossy90": 68148
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Shuffle_us_cd.jpg",
+              "uploader": "Scarred Sun",
+              "uploader_url": "https://info.sonicretro.org/User:Scarred_Sun",
+              "uploaded_at": "2008-06-16T16:50:21Z",
+              "source_sha1": "b866175b8f2a6aeeddbcedae615e4989fd49cafa",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Shuffle_us_cd.jpg"
+            }
+          ],
+          "path": "51060/disc2.webp"
+        },
+        "inlay": {
+          "kind": "inlay",
+          "sha256": "7b3cf3b6c2321f8546df3fc06bee163000c0cf31e7ccde6dd335f152eb0d5c3c",
+          "bytes": 1112698,
+          "width": 1766,
+          "height": 1382,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 3681000,
+              "lossy90": 1112698
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/SonicShuffle_DC_US_Inlay.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "34f1a72dbd1eb89b7f3b4b9957397a3c813b47322780b9309fcab1e70debaee6",
+              "source_bytes": 1457645,
+              "url": "https://info.sonicretro.org/images/a/ab/SonicShuffle_DC_US_Inlay.jpg",
+              "page": "Sonic Shuffle",
+              "region": "USA",
+              "classification": "explicit_selected_inlay",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 3681000,
+                  "lossy90": 1112698
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:SonicShuffle_DC_US_Inlay.jpg",
+              "uploader": "Black Squirrel",
+              "uploader_url": "https://info.sonicretro.org/User:Black_Squirrel",
+              "uploaded_at": "2015-01-17T19:17:04Z",
+              "source_sha1": "79ebead47f376232a4a6a3ba6a431871be6d272b",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:SonicShuffle_DC_US_Inlay.jpg"
+            }
+          ],
+          "path": "51060/inlay.webp"
         }
       },
       "serial_identifiers": [
@@ -27628,10 +28080,11 @@
       ],
       "images": {
         "cover_front": {
-          "sha256": "930b517369330860bf921fdaed2d6cf528d2746d4cc2b554ba700007e50fd7ab",
-          "bytes": 79606,
-          "width": 512,
-          "height": 504,
+          "kind": "cover_front",
+          "sha256": "e2ede53accaa6e9995bc7f7d194ef7a2c229e71a0f770ab695e5c113dadb3bb8",
+          "bytes": 313458,
+          "width": 1410,
+          "height": 1400,
           "alpha": false,
           "compression": {
             "policy": "smallest-lossless-or-lossy90-v2",
@@ -27639,32 +28092,42 @@
             "reason": "smallest_webp",
             "quality": 90,
             "candidate_bytes": {
-              "lossless": 267030,
-              "lossy90": 79606
+              "lossless": 1824590,
+              "lossy90": 313458
             }
           },
-          "kind": "cover_front",
-          "path": "51117/cover_front.webp",
           "sources": [
             {
-              "source": "Named_Boxarts/Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es).png",
-              "source_sha256": "5b13c5fbacc84ea33bfaeabd30084dc5183630f3458c062bd9429b90735b2d9f",
-              "source_bytes": 411726,
+              "source": "Sonic Retro/Sadventure2-box-us.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "5d493d82c9c4e203372d49ca22fa3797d0070bd713f2e044f33274aea1fa2e3f",
+              "source_bytes": 440751,
+              "url": "https://info.sonicretro.org/images/3/33/Sadventure2-box-us.jpg",
+              "page": "Sonic Adventure 2",
+              "region": "USA",
+              "classification": "explicit_selected_jewel_case_front",
+              "match": "exact_file_usage_or_explicit_alias",
               "compression": {
                 "policy": "smallest-lossless-or-lossy90-v2",
                 "lossless": false,
                 "reason": "smallest_webp",
                 "quality": 90,
                 "candidate_bytes": {
-                  "lossless": 267030,
-                  "lossy90": 79606
+                  "lossless": 1824590,
+                  "lossy90": 313458
                 }
               },
-              "redump_id": "55964",
-              "dat_name": "Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es)",
-              "match": "exact"
+              "file_page": "https://info.sonicretro.org/File:Sadventure2-box-us.jpg",
+              "uploader": "Scarred Sun",
+              "uploader_url": "https://info.sonicretro.org/User:Scarred_Sun",
+              "uploaded_at": "2009-09-08T03:35:42Z",
+              "source_sha1": "1e15ab2bdf15ecea0f8d2eaae12872b047ea1d2e",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sadventure2-box-us.jpg"
             }
-          ]
+          ],
+          "path": "51117/cover_front.webp"
         },
         "screenshot": {
           "sha256": "2db88124c7b032d86386b559b5ad7d5950e4cd351302407779a81880ed264db6",
@@ -27743,6 +28206,195 @@
               "match": "exact"
             }
           ]
+        },
+        "cover_back": {
+          "kind": "cover_back",
+          "sha256": "351bfd63b050c88af19b693d528e8f42ca0f29c72f34612338148bbc2bb61064",
+          "bytes": 1254564,
+          "width": 1768,
+          "height": 1396,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 3990706,
+              "lossy90": 1254564
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sa2_us_back_cover.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "2afcb7067540e63cd5db2a64794a8707e251aac7dfee57fb8481281cb52359b2",
+              "source_bytes": 1670650,
+              "url": "https://info.sonicretro.org/images/8/86/Sa2_us_back_cover.jpg",
+              "page": "Sonic Adventure 2",
+              "region": "USA",
+              "classification": "explicit_selected_back",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 3990706,
+                  "lossy90": 1254564
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sa2_us_back_cover.jpg",
+              "uploader": "Black Squirrel",
+              "uploader_url": "https://info.sonicretro.org/User:Black_Squirrel",
+              "uploaded_at": "2015-01-17T19:12:07Z",
+              "source_sha1": "d52717878fd57bfae62d7d5b73565d2a34f2b3b7",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sa2_us_back_cover.jpg"
+            }
+          ],
+          "path": "51117/cover_back.webp"
+        },
+        "cover_front2": {
+          "sha256": "930b517369330860bf921fdaed2d6cf528d2746d4cc2b554ba700007e50fd7ab",
+          "bytes": 79606,
+          "width": 512,
+          "height": 504,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 267030,
+              "lossy90": 79606
+            }
+          },
+          "kind": "cover_front",
+          "path": "51117/cover_front2.webp",
+          "sources": [
+            {
+              "source": "Named_Boxarts/Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es).png",
+              "source_sha256": "5b13c5fbacc84ea33bfaeabd30084dc5183630f3458c062bd9429b90735b2d9f",
+              "source_bytes": 411726,
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 267030,
+                  "lossy90": 79606
+                }
+              },
+              "redump_id": "55964",
+              "dat_name": "Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es)",
+              "match": "exact"
+            }
+          ]
+        },
+        "disc": {
+          "kind": "disc",
+          "sha256": "1731222184f511ab7615f395bda26b1df61f520dc08e2a6e3fc3f49788ae8bc7",
+          "bytes": 137692,
+          "width": 716,
+          "height": 718,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 806056,
+              "lossy90": 137692
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sa2_us_cd.png",
+              "provider": "sonicretro",
+              "source_sha256": "96c0a303b96476051201d846f89d81e863cd8b1e6847c6cd176febbd6eca49ca",
+              "source_bytes": 912085,
+              "url": "https://info.sonicretro.org/images/c/c4/Sa2_us_cd.png",
+              "page": "Sonic Adventure 2",
+              "region": "USA",
+              "classification": "explicit_selected_disc",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 806056,
+                  "lossy90": 137692
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sa2_us_cd.png",
+              "uploader": "Scarred Sun",
+              "uploader_url": "https://info.sonicretro.org/User:Scarred_Sun",
+              "uploaded_at": "2009-09-16T05:03:33Z",
+              "source_sha1": "b2fe3c7ae492b63f3d55d333a1e61bf02300592a",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sa2_us_cd.png"
+            }
+          ],
+          "path": "51117/disc.webp"
+        },
+        "inlay": {
+          "kind": "inlay",
+          "sha256": "4a1e8c298c56fc4ca9835e11acc8606c3a0999a27f558eeb038eb3bb777c2bab",
+          "bytes": 973332,
+          "width": 1766,
+          "height": 1398,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 3463354,
+              "lossy90": 973332
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/SonicAdventure2_DC_US_Inlay.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "371a90f99dd8cc5688aac8d22b88b8cfbe208f162f52d5acdc9c3ea9c0e8804a",
+              "source_bytes": 1323488,
+              "url": "https://info.sonicretro.org/images/7/76/SonicAdventure2_DC_US_Inlay.jpg",
+              "page": "Sonic Adventure 2",
+              "region": "USA",
+              "classification": "explicit_selected_inlay",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 3463354,
+                  "lossy90": 973332
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:SonicAdventure2_DC_US_Inlay.jpg",
+              "uploader": "Black Squirrel",
+              "uploader_url": "https://info.sonicretro.org/User:Black_Squirrel",
+              "uploaded_at": "2015-01-17T19:15:00Z",
+              "source_sha1": "759a29cf18ac51d07481e3e712674a8559b2f3af",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:SonicAdventure2_DC_US_Inlay.jpg"
+            }
+          ],
+          "path": "51117/inlay.webp"
         }
       },
       "serial_identifiers": [
@@ -109217,6 +109869,57 @@
               "match": "exact"
             }
           ]
+        },
+        "disc": {
+          "kind": "disc",
+          "sha256": "df67744ed789839b6b6ab8cd7929d4b88dee227f6a492e1b822ce2ff7944a172",
+          "bytes": 152314,
+          "width": 640,
+          "height": 644,
+          "alpha": false,
+          "compression": {
+            "policy": "smallest-lossless-or-lossy90-v2",
+            "lossless": false,
+            "reason": "smallest_webp",
+            "quality": 90,
+            "candidate_bytes": {
+              "lossless": 629828,
+              "lossy90": 152314
+            }
+          },
+          "sources": [
+            {
+              "source": "Sonic Retro/Sa_dc_le_disc.jpg",
+              "provider": "sonicretro",
+              "source_sha256": "7539b8448ccc827026be1dbd8ab886331d7a1240abacf7a5b86d8f06ba5004f4",
+              "source_bytes": 215701,
+              "url": "https://info.sonicretro.org/images/6/66/Sa_dc_le_disc.jpg",
+              "page": "Sonic Adventure: Limited Edition",
+              "region": "USA",
+              "classification": "explicit_selected_disc",
+              "match": "exact_file_usage_or_explicit_alias",
+              "compression": {
+                "policy": "smallest-lossless-or-lossy90-v2",
+                "lossless": false,
+                "reason": "smallest_webp",
+                "quality": 90,
+                "candidate_bytes": {
+                  "lossless": 629828,
+                  "lossy90": 152314
+                }
+              },
+              "file_page": "https://info.sonicretro.org/File:Sa_dc_le_disc.jpg",
+              "uploader": "Scarred Sun",
+              "uploader_url": "https://info.sonicretro.org/User:Scarred_Sun",
+              "uploaded_at": "2010-01-23T15:32:00Z",
+              "source_sha1": "a5eaa761d2c91e8ed0b8205e9dd606c9e853f1c5",
+              "uploader_hidden": false,
+              "selection_id": "user-selected-dreamcast-us-artwork",
+              "selection_file_page": "https://info.sonicretro.org/File:Sa_dc_le_disc.jpg",
+              "release_variant": "limited_edition"
+            }
+          ],
+          "path": "SDC-51014/disc.webp"
         }
       },
       "serial_identifiers": [
@@ -428460,6 +429163,28 @@
       "url": "https://segaretro.org",
       "license": "fair use",
       "scope": "US box back, inlay, disc and manual scans used to complete Dreamcast artwork."
+    },
+    "sonicretro": {
+      "name": "Sonic Retro",
+      "url": "https://info.sonicretro.org",
+      "scope": "Explicitly selected US Dreamcast covers, inlays and discs; official Redump identifiers; editions matched separately and primary artwork selected by pixel count.",
+      "selection": "explicit_file_pages",
+      "file_pages": [
+        "https://info.sonicretro.org/File:Sa_us_boxart.jpg",
+        "https://info.sonicretro.org/File:Sa_us_back_cover.jpg",
+        "https://info.sonicretro.org/File:SonicAdventure_DC_US_Inlay.jpg",
+        "https://info.sonicretro.org/File:Sadventure2-box-us.jpg",
+        "https://info.sonicretro.org/File:Sa2_us_back_cover.jpg",
+        "https://info.sonicretro.org/File:SonicAdventure2_DC_US_Inlay.jpg",
+        "https://info.sonicretro.org/File:Shuffle_us_boxart.jpg",
+        "https://info.sonicretro.org/File:Shuffle_us_back_cover.jpg",
+        "https://info.sonicretro.org/File:SonicShuffle_DC_US_Inlay.jpg",
+        "https://info.sonicretro.org/File:Sa_dc_le_disc.jpg",
+        "https://info.sonicretro.org/File:SA1_-_NOT_FOR_RESALE.png",
+        "https://info.sonicretro.org/File:Sa2_us_cd.png",
+        "https://info.sonicretro.org/File:Shuffle_us_cd.jpg",
+        "https://info.sonicretro.org/File:Shuffle_us_nfr_cd.jpg"
+      ]
     }
   },
   "console_metadata": {
