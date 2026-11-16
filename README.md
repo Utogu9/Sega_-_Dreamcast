@@ -14,3 +14,5 @@ Sega Dreamcast artwork and metadata for [OpenCabinet-BDD](https://github.com/Uto
 - Console logo: Wikimedia Commons; its source, author and license are recorded in `console_artwork.json`.
 
 Artwork belongs to its respective rights holders. This repository does not assign it a new license.
+
+- Selected game descriptions and infobox metadata: [Wikipedia contributors](WIKIPEDIA-CREDITS.md), under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
